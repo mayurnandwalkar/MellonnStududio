@@ -876,7 +876,7 @@ input[type=text]:visited {
 .talk-to-our-expert-section p {
     color: #4E4E4E;
     font-family: "SF Pro";
-     font-style: normal;
+    font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
@@ -886,13 +886,13 @@ input[type=text]:visited {
 .navbar-toggler {
     all: unset;
     cursor: pointer;
- }
+}
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: none;
     box-shadow: none;
- }
+}
 
 .navbar-toggler .header-close {
     display: none;
@@ -904,29 +904,34 @@ input[type=text]:visited {
 
 .navbar-toggler.collapsed .header-close {
     display: block;
- }
+}
 
- .navbar-toggler:not(.collapsed) .header-open {
+.navbar-toggler:not(.collapsed) .header-open {
     display: block;
- }
+}
 
 .navbar-toggler:not(.collapsed) .header-close {
     display: none;
- }
+}
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     .hero-land h1 {
         color: #242424;
         text-align: center;
         font-family: "SF Pro";
-        font-size: 42px;
+        font-size: 36px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         text-transform: lowercase;
         margin-top: 40px;
+        /* padding: 20px */
     }
-
+    .service-page-hero-sec h1 {
+        
+        font-weight: 500;
+        
+    }
     .section-got-an-idea {
         height: auto;
     }
@@ -983,6 +988,11 @@ input[type=text]:visited {
     .sec-bg h2 {
         width: 100%;
         text-align: center;
+        font-weight: 600;
+    }
+
+    .faq-section h1 {
+        font-size: 34px;
     }
 
     .sec-bg p {
@@ -1040,4 +1050,8 @@ input[type=text]:visited {
     #navbarSupportedContent {
         margin-top: 40px;
     }
-}  
+
+    section {
+        padding: 6px;
+    }
+}

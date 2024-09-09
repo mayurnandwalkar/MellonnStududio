@@ -11,7 +11,6 @@ const HeroComponentAboutPage = () => {
                             beautiful experiences.</h1>
                         <p className='mx-auto col-sm-4 col-12'>By using ideas, emotions, skills,
                             technology and a whole lot of tea.</p>
-                      
                         <div className='display-buttons text-center mt-5'>
                             <div>
                                 <button className='cst-get-in-tout-btn btn-outline text-uppercase'>Get in touch</button>
