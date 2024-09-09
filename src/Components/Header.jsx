@@ -48,8 +48,8 @@ const Header = () => {
                 </a>
 
                 <button class="navbar-toggler" type="button" onClick={handleToggleClick} data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
-                  <img src={ToogleLogo} className="img-fluid header-close" />
-                  <img src={CloseToogleLogo} className="img-fluid header-open" />
+                  <img src={CloseToogleLogo} className="img-fluid header-close" />
+                  <img src={ToogleLogo} className="img-fluid header-open" />
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
