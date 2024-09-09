@@ -30,7 +30,7 @@ const AboutDesignComponent = () => {
                     <p className='col-sm-8 col-12 mx-auto'>We’re a UX/UI design company that brings creative and extraordinary ideas to life with scalable, sustainable, and forward-thinking solutions.</p>
 
                     <div className='row mx-auto mt-5'>
-                        <div className='col-sm-4 mb-4'>
+                        <div className='col-lg-4 col-md-6 col-12 mb-4'>
                             <div className='card text-start m-4'>
                                 <img src={cardImage} className='img-fluid' />
                                 <div class="card-body">
@@ -40,7 +40,7 @@ const AboutDesignComponent = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-sm-4 mb-4'>
+                        <div className='col-lg-4 col-md-6 col-12 mb-4'>
                             <div className='card text-start m-4'>
                                 <img src={cardImage} className='img-fluid' />
                                 <div class="card-body">
@@ -50,7 +50,7 @@ const AboutDesignComponent = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-sm-4 mb-4'>
+                        <div className='col-lg-4 col-md-6 col-12 mb-4'>
                             <div className='card text-start m-4'>
                                 <img src={cardImage} className='img-fluid' />
                                 <div class="card-body">
