@@ -913,6 +913,7 @@ input[type=text]:visited {
 .navbar-toggler:not(.collapsed) .header-close {
     display: none;
 }
+ 
 
 @media (max-width: 768px) {
     .hero-land h1 {
@@ -927,11 +928,13 @@ input[type=text]:visited {
         margin-top: 40px;
         /* padding: 20px */
     }
+
     .service-page-hero-sec h1 {
-        
+
         font-weight: 500;
-        
+
     }
+
     .section-got-an-idea {
         height: auto;
     }
