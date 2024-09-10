@@ -88,7 +88,8 @@ header .nav-item {
 
 .cst-talk-on-wh-btn:hover {
     background-color: #25d366;
-    border: 1px solid #25d366
+    border: 1px solid #25d366;
+    font-weight: 600;
 }
 
 .left-img-cst-df {
@@ -457,8 +458,13 @@ header .nav-item a:hover {
     font-weight: 600
 }
 
-header .nav-link .active {
+footer .nav-item a:hover {
+    text-decoration: underline;
     font-weight: 600
+}
+
+header .nav-link .active {
+    font-weight: 600;
 }
 
 header .nav-item a:hover::after {
@@ -743,11 +749,96 @@ input[type=text]:visited {
     line-height: normal;
 }
 
+
+.about-design-section .card:hover h2::after {
+    content: url('./assets/Images/rightArrow.svg');
+    float: inline-end;
+    align-items: center;
+}
+
 .hire-us-now-white-background:hover {
     background: #fff;
     color: #242424;
     border: 1px solid #fff;
     font-weight: 400;
+}
+
+.display-founder-images h4 {
+    color: #242424;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.display-founder-images span {
+    color: #4E4E4E;
+    text-align: center;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.display-founder-images .text-center {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.display-founder-images .text-center img {
+    transition: transform 0.3s ease;
+    width: 100%;
+}
+
+.display-founder-images .text-center:hover img {
+    transform: scale(1.05);
+}
+
+.display-founder-images .text-center::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+.display-founder-images .text-center:hover::before {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.display-founder-images .text-center h4,
+.display-founder-images .text-center span {
+    position: relative;
+    z-index: 2;
+}
+
+.display-founder-images .visit-linkedin {
+    opacity: 0;
+    position: absolute;
+    bottom: 86px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: #0B66C2;
+    font-family: "SF Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.display-founder-images .text-center:hover .visit-linkedin {
+    opacity: 1;
 }
 
 @media (max-width:768px) {
@@ -869,5 +960,9 @@ input[type=text]:visited {
 
     section {
         padding: 6px
+    }
+
+    header .nav-item a:hover::after {
+        position: relative;
     }
 }
