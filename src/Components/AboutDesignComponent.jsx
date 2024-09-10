@@ -61,7 +61,7 @@ const AboutDesignComponent = () => {
                             </div>
                         </div>
                         <div className='mt-2 mb-5'>
-                            <button className='cst-get-in-tout-btn btn-outline text-uppercase'>Work With US</button>
+                            <button className='hire-us-now-white-background btn-outline text-uppercase'>Work With US</button>
                         </div>
 
                     </div>

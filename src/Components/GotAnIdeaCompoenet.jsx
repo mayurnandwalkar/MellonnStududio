@@ -12,12 +12,14 @@ const GotAnIdeaCompoenet = () => {
                     </div>
                     <div className='display-buttons text-center mt-5 pb-5'>
                         <div>
-                            <button className='cst-get-in-tout-btn btn-outline text-uppercase'>Get in touch</button>
+                            <button type="button" className='cst-get-in-tout-btn btn-outline text-uppercase'>Get in touch</button>
                         </div>
                         <div>
-                            <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>
-                                <FaWhatsapp style={{ fontSize: "18px" }} /> TALK TO US ON WHATSAPP
+                            <button type="button" className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>
+                                {/* <FaWhatsapp style={{ fontSize: "18px" }} />  */}
+                                TALK TO US ON WHATSAPP
                             </button>
+ 
                         </div>
                     </div>
                 </div>
