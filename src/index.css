@@ -572,7 +572,8 @@ input[type=text]:visited {
 }
 
 .our-value-section h5 {
-    width: 70%
+    width: 100%
+    /* width: 70% */
 }
 
 .our-value-section span {
@@ -936,7 +937,7 @@ input[type=text]:visited {
     }
 
     .cst-hight-hr {
-        top: 12px
+        /* top: 12px */
     }
 
     .navbar-toggler .collapsed {
