@@ -10,7 +10,9 @@ import Aos from 'aos';
 
 function App() {
   useEffect(() => {
-    Aos.init();
+    Aos.init({
+      duration: 1600, // Slows down the animation (default is 400ms)
+    });
   }, []);
 
   return (
