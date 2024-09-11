@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
-import Logo from '../assets/Images/logo.png'
+import Logo from '../assets/Images/logoMain.svg'
 import ToogleLogo from '../assets/Images/Component25.png'
 import CloseToogleLogo from '../assets/Images/closeIcon.png'
 
