@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
 import Logo from '../assets/Images/logo.png'
 import ToogleLogo from '../assets/Images/Component25.png'
@@ -6,6 +6,7 @@ import CloseToogleLogo from '../assets/Images/closeIcon.png'
 
 const Header = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
   const hanldeAboutUs = (e) => {
@@ -36,6 +37,7 @@ const Header = () => {
   const handleToggleClick = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <>
       <div className='container'>
@@ -55,16 +57,16 @@ const Header = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" onClick={hanldeAboutUs}>about us</a>
+                      <a class={`nav-link ${location.pathname == "/about" ? 'active': ''} `} aria-current="page" href="#" onClick={hanldeAboutUs}>about us</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" onClick={handleServices}>services</a>
+                      <a class={`nav-link ${location.pathname == "/service" ? 'active': ''}`} aria-current="page" href="#" onClick={handleServices}>services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" onClick={handleCasestudy}>case studies</a>
+                      <a class={`nav-link`} aria-current="page" href="#" onClick={handleCasestudy}>case studies</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" onClick={handleContactUs}>contact us</a>
+                      <a class={`nav-link ${location.pathname == "/contact-us" ? 'active': ''}`} aria-current="page" href="#" onClick={handleContactUs}>contact us</a>
                     </li>
                   </ul>
                   <form class="d-flex" role="search">

@@ -23,6 +23,15 @@ header .nav-item {
     margin-right: 10px
 }
 
+header .nav-item .nav-link {
+    color: #242424;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
 .hero-land h1 {
     color: #242424;
     text-align: center;
@@ -855,6 +864,23 @@ input[type=text]:visited {
     font-weight: 900;
 }
 
+a.nav-link.active {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+a.nav-link.active::after {
+    content: "";
+    position: absolute;
+    margin-left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
 @media (max-width:768px) {
     .hero-land h1 {
         color: #242424;
@@ -973,10 +999,15 @@ input[type=text]:visited {
     }
 
     section {
-        padding: 20px
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     header .nav-item a:hover::after {
+        position: relative;
+    }
+
+    a.nav-link.active::after {
         position: relative;
     }
 }
