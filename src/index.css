@@ -966,6 +966,9 @@ a.nav-link.active::after {
     border-radius: 50%;
 }
 
+.reset-anchor-tag{
+     color: #000
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
