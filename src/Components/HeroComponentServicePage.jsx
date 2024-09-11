@@ -1,7 +1,13 @@
 import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom';
 
 const HeroComponentServicePage = () => {
+    const navigate = useNavigate();
+    const handleContactUs = (e) => {
+        e.preventDefault();
+        navigate("/contact-us")
+    }
     return (
         <section className='service-page-hero-sec d-flex align-items-center justify-content-center' data-aos="zoom-in-up" >
             <div className='container'>
@@ -15,7 +21,7 @@ const HeroComponentServicePage = () => {
 
                     <div className='display-buttons text-center mt-5'>
                         <div>
-                            <button className='cst-get-in-tout-btn btn-outline text-uppercase'>Get in touch</button>
+                            <button className='cst-get-in-tout-btn btn-outline text-uppercase' onClick={handleContactUs}>Get in touch</button>
                         </div>
                         <div>
                             <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>

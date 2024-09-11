@@ -1,7 +1,13 @@
 import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom';
 
 const HeroComponentAboutPage = () => {
+    const navigate = useNavigate();
+    const handleContactUs = (e) => {
+        e.preventDefault();
+        navigate("/contact-us")
+    }
     return (
         <>
             <section className='landing-page-hero-sec d-flex align-items-center justify-content-center' data-aos="zoom-in-up" >
@@ -13,10 +19,10 @@ const HeroComponentAboutPage = () => {
                             technology and a whole lot of tea.</p>
                         <div className='display-buttons text-center mt-5'>
                             <div>
-                                <button className='cst-get-in-tout-btn btn-outline text-uppercase'>Get in touch</button>
+                                <button className='cst-get-in-tout-btn btn-outline text-uppercase' onClick={handleContactUs}>Get in touch</button>
                             </div>
                             <div>
-                                <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>
+                                <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase' onClick={handleContactUs}>
                                     <FaWhatsapp style={{ fontSize: "18px" }} /> TALK TO US ON WHATSAPP
                                 </button>
                             </div>

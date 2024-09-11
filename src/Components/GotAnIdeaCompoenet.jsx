@@ -1,7 +1,13 @@
 import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom';
 
 const GotAnIdeaCompoenet = () => {
+    const navigate = useNavigate();
+    const handleContactUs = (e) => {
+        e.preventDefault();
+        navigate("/contact-us")
+    }
     return (
         <>
             <section className='section-got-an-idea py-5 pt-5'  data-aos="zoom-in-up" >
@@ -12,7 +18,7 @@ const GotAnIdeaCompoenet = () => {
                     </div>
                     <div className='display-buttons text-center mt-5 pb-5'>
                         <div>
-                            <button type="button" className='cst-get-in-tout-btn btn-outline text-uppercase'>Get in touch</button>
+                            <button type="button" className='cst-get-in-tout-btn btn-outline text-uppercase' onClick={handleContactUs}>Get in touch</button>
                         </div>
                         <div>
                             <button type="button" className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>
