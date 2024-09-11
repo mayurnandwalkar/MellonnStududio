@@ -3,7 +3,7 @@ import React from 'react'
 const ClientsValuesCompoenent = () => {
     return (
         <>
-            <section className='our-value-section'>
+            <section className='our-value-section' data-aos="zoom-in-up">
                 <div className='container py-5 '>
                     <div className='text-center mt-5 mb-5 '>
                         <h1>Our Values</h1>

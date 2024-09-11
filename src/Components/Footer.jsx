@@ -17,7 +17,7 @@ const Footer = () => {
   }
   return (
     <>
-      <section className='footer-section p-4'>
+      <section className='footer-section p-4' data-aos="zoom-in-up" >
         <div className="container">
           <footer className="py-5">
             <div className="row">

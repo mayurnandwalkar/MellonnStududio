@@ -3,7 +3,7 @@ import cardImage from '../assets/Images/Rectangle34625147.png'
 
 const AboutDesignComponent = () => {
     return (
-        <section className='py-5 text-center about-design-section'>
+        <section className='py-5 text-center about-design-section'  data-aos="zoom-in-up" >
             <div className='container'>
                 <h1 className='mt-5'>We're not just about design</h1>
                 <p>We’re here to help you create digital experiences that bring together innovation and practicality.</p>

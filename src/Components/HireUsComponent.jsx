@@ -2,7 +2,7 @@ import React from 'react'
 
 const HireUsComponent = () => {
   return (
-    <section className='hire-us-now-section'>
+    <section className='hire-us-now-section'  data-aos="zoom-in-up" >
       <div className='container'>
         <div className='row' style={{ background: "#FFC331" }}>
           <div className='col-sm-6 left-img-cst-df'> </div>

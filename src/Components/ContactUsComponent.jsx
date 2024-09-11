@@ -32,7 +32,7 @@ const ContactUsComponent = () => {
     return (
         <>
             <ThemeProvider theme={theme}>
-                <section className='contact-us-section'>
+                <section className='contact-us-section' data-aos="zoom-in-up">
                     <div className='container'>
                         <div className="text-center mt-5">
                             <h1>Hey there!</h1>

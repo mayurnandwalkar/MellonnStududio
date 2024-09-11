@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 
 const HeroComponentServicePage = () => {
     return (
-        <section className='service-page-hero-sec d-flex align-items-center justify-content-center'  >
+        <section className='service-page-hero-sec d-flex align-items-center justify-content-center' data-aos="zoom-in-up" >
             <div className='container'>
                 <div className='hero-land text-center'>
                     <h1 className='mx-auto col-sm-8 col-12'>Discover insights through <strong>research.</strong><br />

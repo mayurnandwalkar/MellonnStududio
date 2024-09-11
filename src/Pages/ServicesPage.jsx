@@ -15,7 +15,7 @@ const ServicesPage = () => {
       <Header />
       <HeroComponentServicePage />
 
-      <section className='actionable-design-section py-5'>
+      <section className='actionable-design-section py-5' data-aos="zoom-in-up">
         <div className='container'>
           <div className='text-center pt-5 pb-5'>
             <h1 className='col-sm-6 col-12 mx-auto'>We turn your big ideas into real and actionable design solutions.</h1>
@@ -57,7 +57,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className='reserch-design-build-section'>
+      <section className='reserch-design-build-section' data-aos="zoom-in-up">
         <div className='container'>
           <div className='text-center pt-5 pb-5'>
             <h1 className='col-sm-6 col-12 mx-auto'>research</h1>
@@ -106,7 +106,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className='reserch-design-build-section'>
+      <section className='reserch-design-build-section' data-aos="zoom-in-up">
         <div className='container'>
           <div className='text-center pt-5 pb-5'>
             <h1 className='col-sm-6 col-12 mx-auto'>Design</h1>
@@ -166,7 +166,7 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className='reserch-design-build-section'>
+      <section className='reserch-design-build-section' data-aos="zoom-in-up">
         <div className='container'>
           <div className='text-center pt-5 pb-5'>
             <h1 className='col-sm-6 col-12 mx-auto'>Build</h1>

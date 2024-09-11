@@ -26,7 +26,7 @@ const FeedbackCarousel = () => {
     ];
 
     return (
-        <section className='digital-product-sections mt-5 mb-5'>
+        <section className='digital-product-sections mt-5 mb-5'  data-aos="zoom-in-up" >
             <div className='container-fluid'>
                 <h1 className='text-center pt-5'>We craft exceptional digital products</h1>
                 <p className='text-center mb-5  '>Our satisfied customers' feedback</p>

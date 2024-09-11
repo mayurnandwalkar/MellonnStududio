@@ -15,7 +15,7 @@ const AboutPage = () => {
             <HeroComponentAboutPage />
             <ClientsValuesCompoenent />
             <ClientsLogosComponent />
-            <section className='our-value-section py-5'>
+            <section className='our-value-section py-5' data-aos="zoom-in-up">
                 <div className='container'>
                     <div className='text-center pt-5 pb-5'>
                         <h1>Client Testimonials</h1>

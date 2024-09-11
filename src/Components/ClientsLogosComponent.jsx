@@ -4,7 +4,7 @@ import MobileRecImage from '../assets/Images/logoesForMobile.png'
 
 const ClientsLogosComponent = () => {
   return (
-    <section className="mt-5 mb-5 text-center companies-logo-section">
+    <section className="mt-5 mb-5 text-center companies-logo-section"  data-aos="zoom-in-up" >
       <br />
       <div className='container'>
         <h1>Clients who trust us</h1>

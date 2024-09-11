@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 const LeadersComponent = () => {
   return (
     <>
-      <section className='leaders-section mb-5'>
+      <section className='leaders-section mb-5' data-aos="zoom-in-up">
         <div className='container'>
           <div className='text-center'>
             <h1>say hello to the<br />leaders of our tribe!</h1>

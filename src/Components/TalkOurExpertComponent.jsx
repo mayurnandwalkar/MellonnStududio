@@ -2,7 +2,7 @@ import React from 'react'
 import SatymImage from '../assets/Images/satymimage.png'
 const TalkOurExpertComponent = () => {
     return (
-        <section className='talk-to-our-expert-section'>
+        <section className='talk-to-our-expert-section' data-aos="zoom-in-up">
             <div className='container talk-expert-section py-5'>
                 <div className='display-contain-talk-expert pt-5 pb-5'  >
                     <div>

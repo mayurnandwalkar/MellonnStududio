@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 const GotAnIdeaCompoenet = () => {
     return (
         <>
-            <section className='section-got-an-idea py-5 pt-5'>
+            <section className='section-got-an-idea py-5 pt-5'  data-aos="zoom-in-up" >
                 <div className='container'>
                     <div className='text-center pt-4'>
                         <p>Got An Idea?</p>

@@ -1,14 +1,18 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import './App.css'
+import 'aos/dist/aos.css';
 import HomePage from './Pages/HomePage';
 import ServicesPage from './Pages/ServicesPage';
 import AboutPage from './Pages/AboutPage';
 import ContactUsPage from './Pages/ContactUsPage';
+import Aos from 'aos';
 
 function App() {
- 
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <>
       <BrowserRouter>
@@ -18,7 +22,7 @@ function App() {
             <Route path="service" element={<ServicesPage />} />
             <Route path="about" element={<AboutPage />} />
             <Route path="contact-us" element={<ContactUsPage />} />
-             {/* <Route path="*" element={<NoPage />} />   */}
+            {/* <Route path="*" element={<NoPage />} />   */}
           </Route>
         </Routes>
       </BrowserRouter>

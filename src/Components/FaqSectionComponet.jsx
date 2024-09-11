@@ -79,7 +79,7 @@ const FaqSectionComponent = () => {
 
     return (
         <>
-            <section className='faq-section pt-5 pb-4'>
+            <section className='faq-section pt-5 pb-4'  data-aos="zoom-in-up" >
                 <div className='container'>
                     <h1 className='text-center fw-bold'>frequently asked questions</h1>
                     <p className='text-center mb-5 faq-para'>We’re thrilled you’re interested in learning from us. Here are a few things you should know.</p>
