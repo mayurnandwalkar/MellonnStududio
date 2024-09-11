@@ -59,9 +59,9 @@ const Footer = () => {
               </div>
 
             </div>
-
-            {/* Footer Bottom */}
-            <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <hr className='border-color-footer' />
+            <div className="d-flex flex-column flex-sm-row justify-content-between py-3 my-3">
+              {/* <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"> */}
               <p className='copyright-text'>© 2024. All Rights Reserved</p>
 
               {/* Social Media Icons */}
@@ -92,7 +92,6 @@ const Footer = () => {
           </footer>
         </div>
       </section>
-
     </>
   )
 }

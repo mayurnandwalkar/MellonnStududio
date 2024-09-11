@@ -8,7 +8,9 @@ const HeroComponentServicePage = () => {
                 <div className='hero-land text-center'>
                     <h1 className='mx-auto col-sm-8 col-12'>Discover insights through <strong>research.</strong><br />
                         <strong>Design</strong> with users in mind.<br />
-                        <strong>Build</strong> solutions that grow with you.</h1>
+                        <strong>Build</strong> solutions that grow with you.
+                    </h1>
+
                     <p className='mx-auto col-sm-8 col-12'>We excel at blending design and business with our UI/UX services, creating beautiful and functional experiences that get launched fast.</p>
 
                     <div className='display-buttons text-center mt-5'>

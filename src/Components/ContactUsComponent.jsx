@@ -10,10 +10,10 @@ const ContactUsComponent = () => {
                 styleOverrides: {
                     root: {
                         '& .MuiInput-underline:before': {
-                            borderBottomColor: 'black', // Normal state
+                            borderBottomColor: '#CDCDCD', // Normal state
                         },
                         '& .MuiInput-underline:after': {
-                            borderBottomColor: 'black', // Focus state
+                            borderBottomColor: '#CDCDCD', // Focus state
                         },
                     },
                 },
@@ -38,39 +38,38 @@ const ContactUsComponent = () => {
                             <h1>Hey there!</h1>
                             <p>We’re more than happy to have a conversation.</p>
                         </div>
-                        {/* <div className='row mt-5 p-4'> */}
                         <div className="row mt-5 p-lg-5 p-4 p-sm-2">
                             <div className='col-sm-6 col-12 mb-4'>
-                                <div className='mx-4'>
-                                    <TextField id="standard-basic" label="First Name" variant="standard" fullWidth />
+                                <div class="mx-2 mx-md-5">
+                                    <TextField id="standard-basic" label="first name" variant="standard" fullWidth />
                                 </div>
                             </div>
                             <div className='col-sm-6 col-12 mb-4'>
-                                <div className='mx-4'>
-                                    <TextField id="standard-basic" label="Last Name" variant="standard" fullWidth />
+                                <div class="mx-2 mx-md-5">
+                                    <TextField id="standard-basic" label="last name" variant="standard" fullWidth />
                                 </div>
                             </div>
                             <div className='col-sm-6 col-12 mb-4'>
-                                <div className='mx-4'>
-                                    <TextField id="standard-basic" label="Email ID" variant="standard" fullWidth />
+                                <div class="mx-2 mx-md-5">
+                                    <TextField id="standard-basic" label="email id" variant="standard" fullWidth />
                                 </div>
                             </div>
                             <div className='col-sm-6 col-12 mb-4'>
-                                <div className='mx-4'>
-                                    <TextField id="standard-basic" label="Phone Number" variant="standard" fullWidth />
+                                <div class="mx-2 mx-md-5">
+                                    <TextField id="standard-basic" label="phone number" variant="standard" fullWidth />
                                 </div>
                             </div>
                             <div className='col-sm-6 col-12 mb-4'>
-                                <div className='mx-4'>
-                                    <TextField id="standard-basic" label="Company Name" variant="standard" fullWidth />
+                                <div class="mx-2 mx-md-5">
+                                    <TextField id="standard-basic" label="company name" variant="standard" fullWidth />
                                 </div>
                             </div>
                             <div className='col-sm-6 col-12 mb-4'>
-                                <div className='mx-4'>
+                                <div class="mx-2 mx-md-5">
                                     <TextField
                                         id="standard-select-department"
                                         select
-                                        label="Your Department"
+                                        label="your department"
                                         variant="standard"
                                         fullWidth
                                     >
@@ -81,11 +80,11 @@ const ContactUsComponent = () => {
                                 </div>
                             </div>
                             <div className='col-12 mb-4'>
-                                <div className='mx-4'>
+                                <div class="mx-2 mx-md-5">
                                     <TextField
                                         id="standard-select-source"
                                         select
-                                        label="Where Did You Hear About Us"
+                                        label="Where did you hear about us"
                                         variant="standard"
                                         fullWidth
                                     >
@@ -96,8 +95,8 @@ const ContactUsComponent = () => {
                                 </div>
                             </div>
                             <div className='col-12 mb-4'>
-                                <div className='mx-4'>
-                                    <TextField id="standard-basic" label="Message" variant="standard" fullWidth />
+                                <div class="mx-2 mx-md-5">
+                                    <TextField id="standard-basic" label="message" variant="standard" fullWidth />
                                 </div>
                             </div>
                         </div>
