@@ -25,7 +25,7 @@ const AboutPage = () => {
                         <div className="grid-item">
                             <div className="mb-4">
                                 <div className="cst-hight-hr"></div>
-                                <h5>Working with Melonn Design Studio was a game-changer for our brand. They crafted a cohesive and memorable brand identity that truly captures our essence. Their attention to detail and creativity exceeded our expectations, and we couldn’t be happier with the results!</h5>
+                                <h5>Melonn Design Studio created a powerful, cohesive brand identity that perfectly reflects our vision. Their creativity and attention to detail were outstanding.</h5>
                                 <span>Avirup Mondal</span>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ const AboutPage = () => {
                         <div className="grid-item">
                             <div className="mb-4">
                                 <div className="cst-hight-hr"></div>
-                                <h5>Melonn Design Studio has an incredible knack for understanding the user. They revamped our app’s UI/UX, leading to a 35% increase in user engagement. Their team is innovative, responsive, and a true partner in the creative process.</h5>
+                                <h5>Their UI/UX redesign increased our app’s user engagement by 35%. Melonn Design Studio understands user needs and delivers innovative, user-friendly designs.</h5>
                                 <span>Pushkal Kumara</span>
                             </div>
                         </div>
@@ -41,7 +41,8 @@ const AboutPage = () => {
                         <div className="grid-item">
                             <div className="mb-4">
                                 <div className="cst-hight-hr"></div>
-                                <h5>From concept to completion, Melonn Design Studio was a pleasure to work with. They were highly communicative and collaborative, ensuring that every design decision aligned with our vision and business goals. Their process was smooth, and the end product was outstanding.</h5>
+                                <h5>Great collaboration from start to finish! Melonn Design Studio delivered exceptional designs that aligned perfectly with our goals. Highly recommend their professional approach.
+                                </h5>
                                 <span>Priya Shah</span>
                             </div>
                         </div>
@@ -49,7 +50,8 @@ const AboutPage = () => {
                         <div className="grid-item">
                             <div className="mb-4">
                                 <div className="cst-hight-hr"></div>
-                                <h5>We approached Melonn Design Studio with a complex product idea, and they brought it to life with elegance and precision. Their innovative approach and thorough understanding of our needs made the project a success. Highly recommend for anyone looking to create impactful digital products!</h5>
+                                <h5>Melonn Design Studio turned our complex product idea into reality. Their innovative design approach and understanding of our requirements were exceptional.
+                                </h5>
                                 <span>David Mitchell</span>
                             </div>
                         </div>

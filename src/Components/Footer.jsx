@@ -2,8 +2,19 @@ import React from 'react'
 import FooterLogo from '../assets/Images/footerLogo.png'
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoLinkedin } from "react-icons/io5";
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate = useNavigate()
+  const handleServices = (e) => {
+    e.preventDefault();
+    navigate('/service')
+  }
+
+  const handleAboutUs = (e) => {
+    e.preventDefault();
+    navigate('/about')
+  }
   return (
     <>
       <section className='footer-section p-4'>
@@ -21,9 +32,9 @@ const Footer = () => {
               <div className="col-lg-2 col-md-3 col-12 mb-3">
                 <h5>Services</h5>
                 <ul className="nav flex-column nav-cst-col-footer">
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0">Research</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0">Design</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0">Build</a></li>
+                  <li className="nav-item mb-2"><a href="#" onClick={handleServices} className="nav-link p-0">Research</a></li>
+                  <li className="nav-item mb-2"><a href="#" onClick={handleServices} className="nav-link p-0">Design</a></li>
+                  <li className="nav-item mb-2"><a href="#" onClick={handleServices} className="nav-link p-0">Build</a></li>
                 </ul>
               </div>
 
@@ -31,7 +42,7 @@ const Footer = () => {
               <div className="col-lg-2 col-md-3 col-12 mb-3">
                 <h5>Know More</h5>
                 <ul className="nav flex-column nav-cst-col-footer">
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0">About Us</a></li>
+                  <li className="nav-item mb-2"><a href="#" onClick={handleAboutUs} className="nav-link p-0">About Us</a></li>
                   <li className="nav-item mb-2"><a href="#" className="nav-link p-0">Careers</a></li>
                   <li className="nav-item mb-2"><a href="#" className="nav-link p-0">Privacy Policy</a></li>
                 </ul>
@@ -42,7 +53,7 @@ const Footer = () => {
                 <h5>Say Hello!</h5>
                 <ul className="nav flex-column nav-cst-col-footer">
                   <li className="nav-item mb-2 fw-bolder">
-                    <a href="mailto:connect@melonn.design" className="nav-links p-0 email-cst-footer">connect@melonn.design</a>
+                    <a href="mailto:hello@melonn.design" className="nav-links p-0 email-cst-footer">hello@melonn.design</a>
                   </li>
                 </ul>
               </div>

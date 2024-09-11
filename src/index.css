@@ -572,8 +572,8 @@ input[type=text]:visited {
 }
 
 .our-value-section h5 {
-    width: 100%
-    /* width: 70% */
+    width: 80%
+        /* width: 70% */
 }
 
 .our-value-section span {
@@ -840,6 +840,12 @@ input[type=text]:visited {
 
 .display-founder-images .text-center:hover .visit-linkedin {
     opacity: 1;
+}
+
+.cst-style-list {
+    list-style: decimal;
+    margin-left: 40px;
+    margin-top: 12px;
 }
 
 @media (max-width:768px) {
