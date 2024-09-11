@@ -1,5 +1,7 @@
 import React from 'react'
 import cardImage from '../assets/Images/Rectangle34625147.png'
+import cardImage2 from '../assets/Images/designImage.png'
+import cardImage3 from '../assets/Images/buildImage.png'
 
 const AboutDesignComponent = () => {
     return (
@@ -42,7 +44,7 @@ const AboutDesignComponent = () => {
                         </div>
                         <div className='col-lg-4 col-md-6 col-12 mb-4'>
                             <div className='card text-start m-4'>
-                                <img src={cardImage} className='img-fluid' />
+                                <img src={cardImage2} className='img-fluid' />
                                 <div class="card-body">
                                     <h2>Design</h2>
                                     <hr />
@@ -52,7 +54,7 @@ const AboutDesignComponent = () => {
                         </div>
                         <div className='col-lg-4 col-md-6 col-12 mb-4'>
                             <div className='card text-start m-4'>
-                                <img src={cardImage} className='img-fluid' />
+                                <img src={cardImage3} className='img-fluid' />
                                 <div class="card-body">
                                     <h2>Build</h2>
                                     <hr />

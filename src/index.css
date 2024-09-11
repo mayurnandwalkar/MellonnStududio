@@ -1,3 +1,82 @@
+@font-face {
+    src: url('./assets/Fonts/San-Francisco-Pro-Fonts-master/SF-Pro.ttf');
+    font-family: 'SF Pro';
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --dc-primary: #42424;
+    --dc-text-primary: #4E4E4E;
+    --dc-secondary: #FFC331;
+    --dc-primary-font: 'SF Pro';
+}
+
+body {
+    font-family: 'SF Pro';
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+
 @keyframes slideLeftToRight {
     0% {
         transform: translateX(-100%)
@@ -589,10 +668,13 @@ input[type=text]:visited {
 
 .grid-container {
     display: grid;
-    gap: 70px;
+    /* gap: 70px; */
+    gap: 20px;
     justify-content: end;
     grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
-    padding: 10px
+    padding: 10px;
+    justify-content: end;
+    margin-right: 46px;
 }
 
 .grid-item {
@@ -743,6 +825,7 @@ input[type=text]:visited {
     height: 20px;
     margin-left: 10px;
     /* Adds space after the image */
+    transition: all 0.3s ease;
 }
 
 .hire-us-now-white-background {
@@ -755,6 +838,8 @@ input[type=text]:visited {
     font-family: "SF Pro";
     font-weight: 400;
     line-height: normal;
+    transition: all 0.3s ease;
+    position: relative;
 }
 
 
@@ -881,6 +966,12 @@ a.nav-link.active::after {
     border-radius: 50%;
 }
 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
 @media (max-width:768px) {
     .hero-land h1 {
         color: #242424;
@@ -1009,5 +1100,44 @@ a.nav-link.active::after {
 
     a.nav-link.active::after {
         position: relative;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+        padding: 10px;
+        justify-content: center;
+        margin-right: 0px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .grid-container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+        padding: 10px;
+        justify-content: center;
+        margin: 0px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+@media (min-width: 1600px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1500px;
     }
 }
