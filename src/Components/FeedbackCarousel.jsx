@@ -69,9 +69,9 @@ const FeedbackCarousel = () => {
                         <button className='cst-get-in-tout-btn btn-outline text-uppercase' onClick={handleContactUs}>Get in touch</button>
                     </div>
                     <div>
-                        <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>
-                            <FaWhatsapp style={{ fontSize: "18px" }}/> TALK TO US ON WHATSAPP
-                        </button>
+                    <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase' onClick={()=>window.open('https://wa.me/918882024581', '_blank')}>
+                                <FaWhatsapp style={{ fontSize: "18px" }} /> TALK TO US ON WHATSAPP
+                            </button>
                     </div>
                 </div>
             </div>

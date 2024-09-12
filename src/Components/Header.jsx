@@ -68,9 +68,9 @@ const Header = () => {
                     <li class="nav-item">
                       <a class={`nav-link ${location.pathname == "/contact-us" ? 'active' : ''}`} aria-current="page" href="#" onClick={handleContactUs}>contact us</a>
                     </li>
-                  </ul>
+                  </ul> 
                   <form class="d-flex" role="search">
-                    <button class="cst-get-in-tout-btn btn-outline text-uppercase contact-us-btn-cst" type="submit" onClick={handleContactUs}>Contact Us</button>
+                    <button class="cst-get-in-tout-btn btn-outline text-uppercase contact-us-btn-cst" type="submit" onClick={()=>window.open('https://calendly.com/satyam-melonn/30min', '_blank')}>schedule call</button>
                   </form>
                 </div>
               </div>

@@ -10,7 +10,7 @@ const GotAnIdeaCompoenet = () => {
     }
     return (
         <>
-            <section className='section-got-an-idea py-5 pt-5'  data-aos="zoom-in-up" >
+            <section className='section-got-an-idea py-5 pt-5' data-aos="zoom-in-up" >
                 <div className='container'>
                     <div className='text-center pt-4'>
                         <p>Got An Idea?</p>
@@ -21,11 +21,9 @@ const GotAnIdeaCompoenet = () => {
                             <button type="button" className='cst-get-in-tout-btn btn-outline text-uppercase' onClick={handleContactUs}>Get in touch</button>
                         </div>
                         <div>
-                            <button type="button" className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>
-                                {/* <FaWhatsapp style={{ fontSize: "18px" }} />  */}
-                                TALK TO US ON WHATSAPP
+                        <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase' onClick={()=>window.open('https://wa.me/918882024581', '_blank')}>
+                                <FaWhatsapp style={{ fontSize: "18px" }} /> TALK TO US ON WHATSAPP
                             </button>
- 
                         </div>
                     </div>
                 </div>

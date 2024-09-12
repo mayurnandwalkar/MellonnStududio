@@ -8,6 +8,8 @@ const HeroComponentServicePage = () => {
         e.preventDefault();
         navigate("/contact-us")
     }
+
+    https://wa.me/918882024581
     return (
         <section className='service-page-hero-sec d-flex align-items-center justify-content-center' data-aos="zoom-in-up" >
             <div className='container'>
@@ -24,7 +26,7 @@ const HeroComponentServicePage = () => {
                             <button className='cst-get-in-tout-btn btn-outline text-uppercase' onClick={handleContactUs}>Get in touch</button>
                         </div>
                         <div>
-                            <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase'>
+                            <button className='btn cst-talk-on-wh-btn btn-outline text-uppercase' onClick={()=>window.open('https://wa.me/918882024581', '_blank')}>
                                 <FaWhatsapp style={{ fontSize: "18px" }} /> TALK TO US ON WHATSAPP
                             </button>
                         </div>
