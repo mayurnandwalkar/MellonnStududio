@@ -33,7 +33,6 @@ const Header = () => {
     navigate("/")
   }
 
-
   const handleToggleClick = () => {
     setIsOpen(!isOpen);
   };
