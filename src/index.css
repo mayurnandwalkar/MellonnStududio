@@ -703,7 +703,6 @@ input[type=text]:visited {
 }
 
 .actionable-design-section p,
-.contact-us-section p,
 .faq-para,
 .leaders-section p,
 .reserch-design-build-section p {
@@ -717,6 +716,16 @@ input[type=text]:visited {
     text-transform: lowercase
 }
 
+.contact-us-section .para{
+    color: #4e4e4e;
+    text-align: center;
+    font-family: "SF Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase
+}
 .actionable-design-section h5,
 .our-value-section h5,
 .reserch-design-build-section h5,
