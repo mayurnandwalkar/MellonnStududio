@@ -86,7 +86,7 @@ const Footer = () => {
               {/* Additional Social Icons */}
               <div className='d-flex ' style={{ gap: "32px" }}>
                 <a className='reset-anchor-tag' href="https://www.linkedin.com/company/melonndesignstudio"><IoLogoLinkedin style={{ fontSize: "30px" }} /> </a>
-                <a className='reset-anchor-tag' href="https://www.instagram.com/melonndesignstudio/"><RiInstagramFill style={{ fontSize: "30px" }} /></a>
+                <a className='reset-anchor-tag' href="https://www.instagram.com/melonn.design?igsh=N3p1MDI0enAwbjdy"><RiInstagramFill style={{ fontSize: "30px" }} /></a>
               </div>
             </div>
           </footer>
